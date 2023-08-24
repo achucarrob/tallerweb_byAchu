@@ -15,7 +15,7 @@ def saludo():
 def tarjeta():
     nombre = 'Pablo'
     especie = 'Backyardigan'
-    return render_template ('tarjeta_python.html', nombre = nombre , especie = especie)
+    return render_template ('tarjeta_con_jinja.html', nombre = nombre , especie = especie)
 
 @app.route("/personaje")
 def personaje():
